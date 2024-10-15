@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac5a09d4-6ba8-48f1-999a-9500fb6a6ae1" name="Changes" comment="Added more file types, features, and New UI Design!">
-      <change afterPath="$PROJECT_DIR$/extension_mapping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/theme_switch.png" afterDir="false" />
+    <list default="true" id="ac5a09d4-6ba8-48f1-999a-9500fb6a6ae1" name="Changes" comment="New Backup Feature, Light/Dark Theme, Moved around dictionary for easier legibility">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/file_organizer/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/file_organizer/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/file_organizer/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/file_organizer/file_organizer.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/file_organizer.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/file_organizer/warn-file_organizer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/warn-file_organizer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/file_organizer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/file_organizer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_organizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_organizer.spec" beforeDir="false" afterPath="$PROJECT_DIR$/Sortify.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <workItem from="1728944467020" duration="11164000" />
       <workItem from="1728972628204" duration="1449000" />
       <workItem from="1729008065730" duration="5197000" />
-      <workItem from="1729020073651" duration="869000" />
+      <workItem from="1729020073651" duration="3690000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -118,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728756341296</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New Backup Feature, Light/Dark Theme, Moved around dictionary for easier legibility">
+      <option name="closed" value="true" />
+      <created>1729022112721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729022112721</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added executable and supporting files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added executable and supporting files" />
+    <MESSAGE value="New Backup Feature, Light/Dark Theme, Moved around dictionary for easier legibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Backup Feature, Light/Dark Theme, Moved around dictionary for easier legibility" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FileOrganizer$file_organizer.coverage" NAME="file_organizer Coverage Results" MODIFIED="1728971402118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

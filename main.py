@@ -1,3 +1,4 @@
+import sys
 import tkinter as tk
 from PIL import Image, ImageTk
 from tkinter import filedialog, messagebox
@@ -225,6 +226,24 @@ def toggle_theme():
 
 #----------------------------------------------------------------------------------------------------------------------#
 
+if getattr(sys, 'frozen', False):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the full path to the theme_switch.png file
+image_path = os.path.join(base_path, "icon", "theme_switch.png")
+
+# Attempt to open the image using the constructed path
+try:
+    image = Image.open(image_path)
+    # Example of how you might use the image, such as displaying it
+    # image.show()  # Uncomment if you want to display the image
+except FileNotFoundError as e:
+    print(f"Error: {e}")
+
+#----------------------------------------------------------------------------------------------------------------------#
+
 # Create the main Tkinter window
 root = tk.Tk()
 root.title("File Organizer")
@@ -264,8 +283,9 @@ theme_var = tk.StringVar(value="light")
 backup_enabled = tk.BooleanVar()
 
 # Load Light/Dark Theme Icon
-sun_icon = ImageTk.PhotoImage(Image.open("icon/theme_switch.png").resize((30, 30)))  # Adjust size as needed
-moon_icon = ImageTk.PhotoImage(Image.open("icon/theme_switch.png").resize((30, 30)))
+# Load Light/Dark Theme Icon
+sun_icon = ImageTk.PhotoImage(Image.open(image_path).resize((30, 30)))
+moon_icon = ImageTk.PhotoImage(Image.open(image_path).resize((30, 30)))
 
 
 # Create buttons for "Sort Folder", "Undo", "Sort Recursive", "Select Different Folder", etc.
@@ -302,4 +322,3 @@ switch_theme(theme_var.get())
 
 # Start the Tkinter event loop
 root.mainloop()
-

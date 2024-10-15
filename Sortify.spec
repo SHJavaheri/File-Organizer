@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['file_organizer.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('D:\\Projects\\Python\\FileOrganizer\\FileOrganizer\\icon\\theme_switch.png', 'icon')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='file_organizer',
+    name='Sortify',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
