@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac5a09d4-6ba8-48f1-999a-9500fb6a6ae1" name="Changes" comment="Added executable and supporting files">
+    <list default="true" id="ac5a09d4-6ba8-48f1-999a-9500fb6a6ae1" name="Changes" comment="Added more file types, features, and New UI Design!">
+      <change afterPath="$PROJECT_DIR$/extension_mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/theme_switch.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_organizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_organizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/file_organizer/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/file_organizer/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/file_organizer/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/file_organizer/file_organizer.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/file_organizer.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/file_organizer/warn-file_organizer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/file_organizer/warn-file_organizer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/file_organizer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/file_organizer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_organizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +39,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/SHJavaheri/FileOrganizer.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/SHJavaheri/File-Organizer.git&quot;,
     &quot;accountId&quot;: &quot;903afb29-722f-485c-9073-313e9d84265e&quot;
   }
 }</component>
@@ -47,6 +55,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.file_organizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -79,6 +89,10 @@
       <workItem from="1728756137905" duration="1201000" />
       <workItem from="1728761841797" duration="315000" />
       <workItem from="1728878457897" duration="3624000" />
+      <workItem from="1728944467020" duration="11164000" />
+      <workItem from="1728972628204" duration="1449000" />
+      <workItem from="1729008065730" duration="5197000" />
+      <workItem from="1729020073651" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -127,6 +141,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added executable and supporting files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FileOrganizer$file_organizer.coverage" NAME="file_organizer Coverage Results" MODIFIED="1728882067565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FileOrganizer$file_organizer.coverage" NAME="file_organizer Coverage Results" MODIFIED="1728971402118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FileOrganizer$functions.coverage" NAME="functions Coverage Results" MODIFIED="1728972653252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FileOrganizer$main.coverage" NAME="main Coverage Results" MODIFIED="1729021997222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
