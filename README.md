@@ -1,5 +1,5 @@
 # **File Organizer Overview**
-The **File Organizer** application helps you organize your files into designated folders based on their file types. It streamlines the process of managing your documents by categorizing them automatically.
+The **File Organizer**, now renamed as Sortify, helps you organize your files into designated folders based on their file types. It streamlines the process of managing your documents by categorizing them automatically.
 
 ## **How It Works:**
 When you run the application, it will prompt you to select a folder anywhere on your system that you want to organize. Once a folder has been selected, you can choose between sorting that folder, recursively sorting (sorting all folders as well within the initially selected folder), selecting a different folder, or simply undoing any sorting you have done.
@@ -35,4 +35,4 @@ When running the `.exe` file, you may receive a warning from Windows Defender Sm
 
 ### **"Windows protected your PC. Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk."**
 
-This is due to me not having a CSC (Code Signing Certificate). This simply means that I cannot put my own signature on the program just yet, causing Windows to be unfamiliar and distrust this application. This is a normal security precaution for newly distributed applications. Please be assured that `file_organizer.exe` is completely safe. To run it, click on "More info" and then select "Run anyway."
+This is due to me not having a CSC (Code Signing Certificate). This simply means that I cannot put my own signature on the program just yet, causing Windows to be unfamiliar and distrust this application. This is a normal security precaution for newly distributed applications. Please be assured that `Sortify.exe` is completely safe. To run it, click on "More info" and then select "Run anyway."
